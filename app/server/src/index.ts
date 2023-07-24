@@ -1,9 +1,9 @@
 import { parse } from "url";
 import requestHandler from "./requestHandler";
 import http from "http";
-import createFile from "./createFileJSON";
+import { initializeDataFiles } from "./infrastructure/JSONdataInitializer";
 
-createFile("../data");
+initializeDataFiles();
 
 const server = http.createServer((req, res) => {
   if (req.method === "OPTIONS") {

@@ -1,5 +1,5 @@
 import fs from "fs";
-import createFile from "../src/createFileJSON";
+import createFile from "../src/infrastructure/JSONdataInitializer";
 
 // Mock the fs module functions
 jest.mock("fs");
