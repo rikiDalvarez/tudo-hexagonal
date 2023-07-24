@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.app {
+ border: 2px solid #006100;
+ border-radius: 10px;
+ padding: 10px;
+ min-width: 600px;
+ 
+  
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.todo {
+  font-size: 0.5em;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #888;
+  border-radius: 0.5em;
+  text-align: left;
+  display: flex;
+}
+
+.todoTitle {
+  color: rgb(78, 84, 249);
+  margin:5px;
+  padding-left: 5px;
+}
+
+.todoDone {
+  color: rgb(63, 175, 76);
+  margin:5px;
+  padding-left: 20px;
+}
+
+h1{
+  line-height: 0.5;
+}
+
+.done {
+      font-size: 0.5em;
+      margin: 1em;
+      padding: 1em;
+      border: 1px solid #2cfe1d;
+      border-radius: 0.5em;
+      text-align: left;
+      display: flex;
+      background-color: rgb(48, 100, 49);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  max-width: 400px;
+  min-width: 250px;
+
+}
+
+.listDone {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  min-width: 50px;
+  max-width: 400px;
+    min-width: 250px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/pngwing.com.png');
+  /* Replace with the actual image URL */
+  background-size: cover;
+}
+
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  justify-content: space-around;
+}
+
+
+.addTodo {
+  margin: 2em;
+}
+
+.input{
+  margin: 2em;
+
+}
